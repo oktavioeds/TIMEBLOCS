@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+@font-face {
+  font-family: Poppins;
+  src: url(/timeBlock-main/assets/Poppins-Regular.ttf);
+}
+
+body {
+    font-size: 16px;
+    line-height: 1;
+    background-color: #efefef;
+  }
+  
+  textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #252525;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  div {
+    padding-bottom: 3px;
+  }
+
+  .jumbotron {
+    text-align: center;
+    background-color: #202020;
+    color: #efefef;
+    border-radius: 0;
+    width: 100%;
+    height: 250px;
+  }
+
+  .header-logo {
+    height: 100%;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+  .logo {
+    height: auto;
+    width: 250px;
+    max-height: 80%;
+    padding: 20px 0px;
+  }
+
+.head {
+  font-family: Poppins;
+  font-weight: bolder;
+  font-size: 24px;
+  color: #efefef;
+  position: relative;
+}
+
+.sub {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #efefef;
+  position: relative;
+  top: 30px;
+}
+
+.time {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  color: #efefef;
+  position: relative;
+  top: 60px;
+}
+  
+  .time-block{
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid rgb(255, 255, 255);;
+  }
+  
+  .hour {
+    background-color: #efefef;
+    color: #000000;
+    border-top: 1px groove #202020;
+    border-bottom: 1px groove #202020;
+  }
+  
+  .past {
+    background-color: #353632;
+    color: white;
+  }
+  
+  .present {
+    background-color: #FF1493;;
+    color: #353632;
+  }
+  
+  .future {
+    background-color: #fdff32;
+    color: #353632;
+  }
+  
+  .saveBtn {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #202020;
+    color: #efefef;
+    padding: 20px;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .1s ease-in-out;
+  }
+  
+  .label {
+    font-size: 24px;
+    margin-bottom: 5px; 
+    padding-right: 10px; 
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+  
+  .time-block .textarea {
+    position: relative;
+    top: 25px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    resize: none;
+    font-size: 14px;
+    margin-right: -4px;
+    font-family: Helvetica;
+    
+  }
